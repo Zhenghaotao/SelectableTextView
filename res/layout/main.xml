@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+
+    <com.stra.studyhelper.widget.ObservableScrollView
+        android:id="@+id/scroller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+        <com.stra.studyhelper.widget.SelectableTextView
+            android:id="@+id/main_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:bufferType="spannable"
+            android:text="@string/text"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+    </com.stra.studyhelper.widget.ObservableScrollView>
+
+</LinearLayout>
